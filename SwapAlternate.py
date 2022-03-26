@@ -27,22 +27,19 @@ if __name__ == '__main__':
 #Swap alternate using 1 variable
 
 def printArray(arr,n):
-    for i in range(n):
-        print(arr,end="")
+    for i in range(0,n-1):
+        print(arr[i],end="")
 
 def updatearr(arr,n):
-    i=0
-    while(i<n-1):
+    for i in range(0,n-1):
         temp = arr[i]
         arr[i] = arr[i+1]
         arr[i+1] = temp
-
         i+=2
-
-        printArray(arr,n)
 
 if __name__ == '__main__':
     arr = [1,2,3,4,5,6]
     n = len(arr)
 
     updatearr(arr,n)
+    printArray(arr,n)
