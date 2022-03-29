@@ -9,7 +9,7 @@ key = int(input("enter the value:",))
 n = len(arr)
 
 found = search(arr,n,key)
-if(found== -1):
+if(found == -1):
     print("key is absent")
 else:
     print("key is present")
