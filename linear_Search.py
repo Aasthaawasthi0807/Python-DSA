@@ -5,11 +5,11 @@ def search(arr,n,key):
     return -1
 
 arr = [2, 3, 4, 10, 40]
-key = int(input("enter the value:",))
+key = int(input("enter the value to look for:",))
 n = len(arr)
 
 found = search(arr,n,key)
 if(found == -1):
-    print("key is absent")
+    print("Key is absent")
 else:
-    print("key is present")
+    print("Key is present")
