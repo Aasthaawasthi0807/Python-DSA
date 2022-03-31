@@ -1,10 +1,12 @@
-""" def Print_pattern(n):
+
+def Print_pattern(n):
     for i in range(0,n):#no of rows
         for j in range(0,i+1):#no of columns
             print("*" ,end=" ")
         print("\r")#newline
 n=5
-Print_pattern(n)  """         
+Print_pattern(n)  
+   
 
 
 
