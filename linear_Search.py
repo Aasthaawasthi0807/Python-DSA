@@ -5,7 +5,7 @@ def search(arr,n,key):
     return -1
 
 arr = [2, 3, 4, 10, 40]
-key = int(input("enter the value to look for:",))
+key = int(input("enter the value: ",))
 n = len(arr)
 
 found = search(arr,n,key)
