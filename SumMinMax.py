@@ -47,4 +47,4 @@ if __name__ == '__main__':
     arr = [9,1,4,6,3,0]
     n = len(arr)
 
-    print("sum of all elements in array:" , arrSum(arr,n))
+    print("Sum of all the elements in array:" , arrSum(arr,n))
