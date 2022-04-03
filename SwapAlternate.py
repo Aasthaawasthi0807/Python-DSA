@@ -1,4 +1,4 @@
-"""from tempfile import tempdir
+from tempfile import tempdir
 #Swap Alternate using 2 variables
 
 def printarr(arr , n):
@@ -21,7 +21,7 @@ if __name__ == '__main__':
     arr = [1,2,3,4,5,6]
     n = len(arr)
 
-    updateArray(arr,n)"""
+    updateArray(arr,n)
 
 
 #Swap alternate using 1 variable
