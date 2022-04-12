@@ -1,5 +1,5 @@
 
-# sum of min and max element of array
+# Sum of Min and Max element of array
 
 def getMin(arr,n):
     res = arr[0]
