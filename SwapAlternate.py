@@ -1,5 +1,5 @@
 from tempfile import tempdir
-#Swap Alternate using 2 variables
+#Swap Alternate using 2 variables i and j
 
 def printarr(arr , n):
     for i in range(n):
@@ -24,7 +24,7 @@ if __name__ == '__main__':
     updateArray(arr,n)
 
 
-#Swap alternate using 1 variable
+#Swap alternate using 1 variable i.e i
 
 def printArray(arr,n):
     for i in range(0,n-1):
